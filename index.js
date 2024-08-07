@@ -13,6 +13,7 @@ app.get("/", (req, res)=>{
     res.render('index', {projects: projects});
 });
 
+//another commit 
 app.get("/projects/:id", (req, res) => {
     const theProject = projects.find(project => project.id == req.params.id);
     res.render('project', {project: theProject})
