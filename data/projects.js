@@ -1,6 +1,34 @@
 const projects = [
     {
         id: 1,
+        clientName: "AI Voice Assistant",
+        link: "https://github.com/Gilbert-Adu/ai-voice-assistant",
+        tags: "AI, Voice Assistant, Cloud Computing, Microservices, Containerization, Serverless, Python3",
+        more: "This project exposes a voice assistant that performs and responds to Google Search queries. It can detect emotional intent and responds to a wake command.",
+        features: [
+            "AI Voice Assistant",
+            "Wake Command",
+            "Natural Language Processing",
+            "Emotional Context Provider",
+            "Text-To-Speech",
+            "Google Search"
+        ],
+        tools: [
+            "AWS Lambda",
+            "Microservices",
+            "AWS CloudFront",
+            "Python3",
+            "React JS",
+            "Docker",
+            "AWS EC2",
+
+        ],
+        videoSrc: "/images/voiceo.mov",
+        thumbnail: "/images/logo.png",
+    
+    },
+    {
+        id: 2,
         clientName: "Stripe eCommerce",
         link: "https://ecomm-w-stripe.onrender.com/",
         tags: "Stripe API, eCommerce, Content Management",
@@ -30,7 +58,7 @@ const projects = [
     
     },
     {
-        id: 2,
+        id: 3,
         clientName: "Amhara Unity",
         link: "https://www.amharaunity.com/",
         tags: "Social media, Realtime chat, Blog CMS, Authentication",
