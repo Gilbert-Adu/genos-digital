@@ -24,7 +24,8 @@ const projects = [
             "AWS ECS",
             "Bash",
             "CI/CD",
-            "AWS CodePipeline"
+            "AWS CodePipeline",
+            "AWS Fargate"
             
 
         ],
