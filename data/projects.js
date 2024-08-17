@@ -22,7 +22,9 @@ const projects = [
             "Docker",
             "AWS ECR",
             "AWS ECS",
-            "Bash"
+            "Bash",
+            "CI/CD",
+            "AWS CodePipeline"
             
 
         ],
