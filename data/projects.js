@@ -16,11 +16,14 @@ const projects = [
         tools: [
             "AWS Lambda",
             "Microservices",
-            "AWS CloudFront",
+            "AWS CloudFormation",
             "Python3",
             "React JS",
             "Docker",
-            "AWS EC2",
+            "AWS ECR",
+            "AWS ECS",
+            "Bash"
+            
 
         ],
         videoSrc: "/images/voiceo.mov",
