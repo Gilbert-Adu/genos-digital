@@ -4,17 +4,16 @@ const projects = [
         clientName: "AI Voice Assistant",
         link: "https://github.com/Gilbert-Adu/ai-voice-assistant",
         tags: "AI, Voice Assistant, Cloud Computing, Microservices, Containerization, Serverless, Python3",
-        more: "This project exposes a voice assistant that performs and responds to Google Search queries. It can detect emotional intent and responds to a wake command.",
+        more: "This project exposes a voice assistant that performs and responds to queries. It can detect emotional intent built using AWS Polly & AWS Lambda for event support.",
         features: [
             "AI Voice Assistant",
-            "Wake Command",
             "Natural Language Processing",
             "Emotional Context Provider",
             "Text-To-Speech",
-            "Google Search"
         ],
         tools: [
             "AWS Lambda",
+            "AWS Polly",
             "Microservices",
             "AWS CloudFormation",
             "Python3",
@@ -23,13 +22,11 @@ const projects = [
             "AWS ECR",
             "AWS ECS",
             "Bash",
-            "CI/CD",
-            "AWS CodePipeline",
-            "AWS Fargate"
+            "Pyttsx3"
             
 
         ],
-        videoSrc: "/images/voiceo.mov",
+        videoSrc: "/images/voico.mov",
         thumbnail: "/images/logo.png",
     
     },
