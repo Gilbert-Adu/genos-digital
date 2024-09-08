@@ -17,7 +17,7 @@ const projects = [
             "CSS"
 
         ],
-        videoSrc: "/images/fitwise.mov",
+        videoSrc: "https://fitwise-video.s3.amazonaws.com/fitwise.mov",
         thumbnail: "/images/fitwise.png",
     
     },
@@ -42,7 +42,7 @@ const projects = [
             "GSAP"
 
         ],
-        videoSrc: "/images/babelScroll.mov",
+        videoSrc: "https://babelscroll-video.s3.amazonaws.com/babelScroll.mov",
         thumbnail: "/images/babelScroll.png",
     
     },
@@ -64,7 +64,7 @@ const projects = [
             "CSS"
 
         ],
-        videoSrc: "/images/shoes.mov",
+        videoSrc: "https://shoes-video.s3.amazonaws.com/shoes.mov",
         thumbnail: "/images/shoes.png",
     
     },
@@ -86,7 +86,7 @@ const projects = [
             "CSS"
 
         ],
-        videoSrc: "/images/mid.mov",
+        videoSrc: "https://midjourney-video.s3.amazonaws.com/mid.mov",
         thumbnail: "/images/mid.png",
     
     },
@@ -118,7 +118,7 @@ const projects = [
             
 
         ],
-        videoSrc: "/images/voico.mov",
+        videoSrc: "https://voico-video.s3.amazonaws.com/voico.mov",
         thumbnail: "/images/logo.png",
     
     },
@@ -148,7 +148,7 @@ const projects = [
 
 
         ],
-        videoSrc: "/images/stripevid.mov",
+        videoSrc: "https://stripe-video.s3.amazonaws.com/stripevid.mov",
         thumbnail: "/images/stripe-comm-2.png",
     
     },
@@ -176,7 +176,7 @@ const projects = [
             "Render"
 
         ],
-        videoSrc: "/images/part1.mov",
+        videoSrc: "https://amhara-video.s3.amazonaws.com/part1.mov",
         thumbnail: "/images/amhara.png",
     
     },
