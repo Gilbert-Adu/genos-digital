@@ -1,6 +1,34 @@
 const projects = [
     {
         id: 1,
+        clientName: "AI Automated Facebook Marketplace Helper",
+        link: "/",
+        tags: "AWS S3, HTML, CSS",
+        more: "Built a desktop-native automated facebook marketplace application for a client. In this application, the user inputs their requirements for products they'd like to purchase, the app finds listing that match the criteria, then it messages the seller and keeps the conversation going until a purchase is made or the conversation is ended manually. Can work on any OS. Reach out for a demo",
+        features: [
+            "Threading",
+            "Automation",
+            "Artificial Intelligence (AI)",
+            "Chatbot",
+            "Email"
+        ],
+        mainTag: "fullstack",
+        tools: [
+            
+            "AWS S3",
+            "AWS DynamoDB",
+            "Python eel",
+            "AWS EC2",
+            "AWS Lambda",
+            "AWS SQS"
+
+        ],
+        videoSrc: "https://fitwise-video.s3.amazonaws.com/fitwise.mov",
+        thumbnail: "/images/fitwise.png",
+    
+    },
+    {
+        id: 2,
         clientName: "Fitwise Dashboard",
         link: "http://fitwise-app.s3-website-us-east-1.amazonaws.com/",
         tags: "AWS S3, HTML, CSS",
@@ -22,7 +50,7 @@ const projects = [
     
     },
     {
-        id: 2,
+        id: 3,
         clientName: "Smooth App Views",
         link: "http://babel-scroll-genos-digital.s3-website-us-east-1.amazonaws.com/",
         tags: "AWS S3, Babel, Vanilla JS, HTML, CSS",
@@ -47,7 +75,7 @@ const projects = [
     
     },
     {
-        id: 3,
+        id: 4,
         clientName: "Vanity Product Cards for your shop",
         link: "http://vanity-product-cards.s3-website-us-east-1.amazonaws.com/",
         tags: "AWS S3, HTML, CSS",
@@ -69,7 +97,7 @@ const projects = [
     
     },
     {
-        id: 4,
+        id: 5,
         clientName: "Midjourney-style Carousel",
         link: "http://midjourney-style-carousel.s3-website-us-east-1.amazonaws.com/",
         tags: "AWS S3, HTML, CSS",
@@ -91,7 +119,7 @@ const projects = [
     
     },
     {
-        id: 5,
+        id: 6,
         clientName: "AI Voice Assistant",
         link: "https://github.com/Gilbert-Adu/ai-voice-assistant",
         tags: "AI, Microservices, Containerization, Serverless, Python3",
@@ -123,7 +151,7 @@ const projects = [
     
     },
     {
-        id: 6,
+        id: 7,
         clientName: "Stripe eCommerce",
         link: "https://ecomm-w-stripe.onrender.com/",
         tags: "Stripe API, eCommerce, Content Management",
@@ -153,7 +181,7 @@ const projects = [
     
     },
     {
-        id: 7,
+        id: 8,
         clientName: "Amhara Unity",
         link: "https://www.amharaunity.com/",
         tags: "Social media, Realtime chat, Blog CMS, Authentication",
