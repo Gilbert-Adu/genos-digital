@@ -24,7 +24,7 @@ const projects = [
 
         ],
         videoSrc: "https://fitwise-video.s3.amazonaws.com/fitwise.mov",
-        thumbnail: "/images/fitwise.png",
+        thumbnail: "/images/irr.png",
     
     },
     {
