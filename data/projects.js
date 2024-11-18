@@ -1,10 +1,10 @@
 const projects = [
     {
         id: 1,
-        clientName: "AI Automated Facebook Marketplace Helper",
+        clientName: "iRescue & Resale",
         link: "/",
         tags: "AWS S3, HTML, CSS",
-        more: "Built a desktop-native automated facebook marketplace application for a client. In this application, the user inputs their requirements for products they'd like to purchase, the app finds listing that match the criteria, then it messages the seller and keeps the conversation going until a purchase is made or the conversation is ended manually. Can work on any OS. Reach out for a demo",
+        more: "Built a desktop-native automated Facebook marketplace application for a client (iRescue & Resale in Philadelphia, Pennsylvania). In this application, the user inputs their requirements for products they'd like to purchase, the app finds listing that match the criteria, then it messages the seller and keeps the conversation going until a purchase is made or the conversation is ended manually. Can work on any OS. Reach out for a demo",
         features: [
             "Threading",
             "Automation",
@@ -23,7 +23,7 @@ const projects = [
             "AWS SQS"
 
         ],
-        videoSrc: "https://fitwise-video.s3.amazonaws.com/fitwise.mov",
+        videoSrc: "https://irr-genos-video.s3.us-east-1.amazonaws.com/irr-genos-vid.mov",
         thumbnail: "/images/irr.png",
     
     },
@@ -101,7 +101,7 @@ const projects = [
         clientName: "Midjourney-style Carousel",
         link: "http://midjourney-style-carousel.s3-website-us-east-1.amazonaws.com/",
         tags: "AWS S3, HTML, CSS",
-        more: "This is a demo of vanity carousel (a varousel if you will haha.) for your website :)",
+        more: "This is a demo of vanity carousel (a carousel if you will haha.) for your website :)",
         features: [
             "AWS S3",
             "Vanilla JS",
