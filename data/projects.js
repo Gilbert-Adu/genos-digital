@@ -27,6 +27,33 @@ const projects = [
         thumbnail: "/images/irr.png",
     
     },
+     {
+        id: 2,
+        clientName: "Serrena Store",
+        link: "https://gilbert-serrena-store.framer.website/",
+        tags: "AWS, Framer",
+        more: "eCommerce store with payment integration. Built with Framer, AWS, and a Python backend. Includes payment integration.",
+        features: [
+            "Threading",
+            "Automation",
+            "Artificial Intelligence (AI)",
+            "Stripe Payment",
+            
+        ],
+        mainTag: "fullstack",
+        tools: [
+            
+            "AWS S3",
+            "AWS DynamoDB",
+            "AWS EC2",
+            "AWS Lambd",
+            "Framer"
+
+        ],
+        videoSrc: "https://irr-genos-video.s3.us-east-1.amazonaws.com/serrena-store-vid.mov",
+        thumbnail: "/images/serena-store.png",
+    
+    }
     {
         id: 2,
         clientName: "Fitwise Dashboard",
