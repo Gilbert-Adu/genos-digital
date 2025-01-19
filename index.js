@@ -19,5 +19,7 @@ app.get("/projects/:id", (req, res) => {
     res.render('project', {project: theProject})
 });
 app.listen(3000, () => {
-    console.log("up on 5000")
+    console.log("up on 3000")
+    console.log("I see these new changes.")
+    
 });
