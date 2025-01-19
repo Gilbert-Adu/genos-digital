@@ -46,169 +46,69 @@ const projects = [
             "AWS S3",
             "AWS DynamoDB",
             "AWS EC2",
-            "AWS Lambd",
+            "AWS Lambda",
             "Framer"
 
         ],
         videoSrc: "https://irr-genos-video.s3.us-east-1.amazonaws.com/serrena-store-vid.mov",
         thumbnail: "/images/serena-store.png",
     
-    }
-    {
-        id: 2,
-        clientName: "Fitwise Dashboard",
-        link: "http://fitwise-app.s3-website-us-east-1.amazonaws.com/",
-        tags: "AWS S3, HTML, CSS",
-        more: "This is a demo of a dashboard for a fitness app.",
-        features: [
-            "AWS S3",
-            "Vanilla JS",
-            "HTML",
-            "CSS",
-        ],
-        mainTag: "frontend",
-        tools: [
-            "HTML",
-            "CSS"
-
-        ],
-        videoSrc: "https://fitwise-video.s3.amazonaws.com/fitwise.mov",
-        thumbnail: "/images/fitwise.png",
-    
     },
-    {
+    
+     {
         id: 3,
-        clientName: "Smooth App Views",
-        link: "http://babel-scroll-genos-digital.s3-website-us-east-1.amazonaws.com/",
-        tags: "AWS S3, Babel, Vanilla JS, HTML, CSS",
-        more: "This is a demo of a screen that could be your website or your mobile app",
+        clientName: "Realestic Properties",
+        link: "https://gilbert-realestic.framer.website/",
+        tags: "AWS, Framer",
+        more: "Aesthetically pleasing and high-functioning website for real estate developer.",
         features: [
-            "AWS S3",
-            "Babel",
-            "Vanilla JS",
-            "HTML",
-            "CSS",
-            "SVG",
-            "GSAP"
+            "Threading",
+            "Automation",
+            "Artificial Intelligence (AI)",
+            "Stripe Payment",
+            
         ],
-        mainTag: "cloud",
+        mainTag: "fullstack",
         tools: [
-            "Babel",
-            "GSAP"
+            
+            "AWS S3",
+            "AWS DynamoDB",
+            "AWS EC2",
+            "AWS Lambda",
+            "Framer"
 
         ],
-        videoSrc: "https://babelscroll-video.s3.amazonaws.com/babelScroll.mov",
-        thumbnail: "/images/babelScroll.png",
+        videoSrc: "https://irr-genos-video.s3.us-east-1.amazonaws.com/realestic-vid.mov",
+        thumbnail: "/images/realestic.png",
     
     },
     {
         id: 4,
-        clientName: "Vanity Product Cards for your shop",
-        link: "http://vanity-product-cards.s3-website-us-east-1.amazonaws.com/",
-        tags: "AWS S3, HTML, CSS",
-        more: "This is a demo of product cards (with a vanity twist) for an eCommerce website :)",
+        clientName: "HotelBeach",
+        link: "https://gilbert-hotelbeach.framer.website/",
+        tags: "AWS S3, HTML, CSS, Framer, Python",
+        more: "Website for a beach hotel. Customers can book rooms, cancel rooms, make requests for their room, make payments, check-in, etc.",
         features: [
             "AWS S3",
             "Vanilla JS",
             "HTML",
             "CSS",
+            "Framer"
         ],
         mainTag: "frontend",
         tools: [
             "HTML",
-            "CSS"
+            "CSS",
+            "Framer"
 
         ],
-        videoSrc: "https://shoes-video.s3.amazonaws.com/shoes.mov",
-        thumbnail: "/images/shoes.png",
+        videoSrc: "https://irr-genos-video.s3.us-east-1.amazonaws.com/hotelbeach-vid.mov",
+
+        thumbnail: "/images/hotelbeach.png",
     
     },
-    {
+        {
         id: 5,
-        clientName: "Midjourney-style Carousel",
-        link: "http://midjourney-style-carousel.s3-website-us-east-1.amazonaws.com/",
-        tags: "AWS S3, HTML, CSS",
-        more: "This is a demo of vanity carousel (a carousel if you will haha.) for your website :)",
-        features: [
-            "AWS S3",
-            "Vanilla JS",
-            "HTML",
-            "CSS",
-        ],
-        mainTag: "frontend",
-        tools: [
-            "HTML",
-            "CSS"
-
-        ],
-        videoSrc: "https://midjourney-video.s3.amazonaws.com/mid.mov",
-        thumbnail: "/images/mid.png",
-    
-    },
-    {
-        id: 6,
-        clientName: "AI Voice Assistant",
-        link: "https://github.com/Gilbert-Adu/ai-voice-assistant",
-        tags: "AI, Microservices, Containerization, Serverless, Python3",
-        more: "This project exposes a voice assistant that performs and responds to queries. It can detect emotional intent built using AWS Polly & AWS Lambda for event support.",
-        features: [
-            "AI Voice Assistant",
-            "Natural Language Processing",
-            "Emotional Context Provider",
-            "Text-To-Speech",
-        ],
-        mainTag: "cloud",
-        tools: [
-            "AWS Lambda",
-            "AWS Polly",
-            "Microservices",
-            "AWS CloudFormation",
-            "Python3",
-            "React JS",
-            "Docker",
-            "AWS ECR",
-            "AWS ECS",
-            "Bash",
-            "Pyttsx3"
-            
-
-        ],
-        videoSrc: "https://voico-video.s3.amazonaws.com/voico.mov",
-        thumbnail: "/images/logo.png",
-    
-    },
-    {
-        id: 7,
-        clientName: "Stripe eCommerce",
-        link: "https://ecomm-w-stripe.onrender.com/",
-        tags: "Stripe API, eCommerce, Content Management",
-        more: "This is a basic demo project showing the skeleton of an eCommerce website with Stripe payment API integration. Frontend is built with React JS and backend is built with Node JS.",
-        features: [
-            "Stripe API",
-            "Search",
-            "Content Management System",
-            "eCommerce"
-        ],
-        tools: [
-            "Node JS",
-            "Vanilla JS",
-            "GSAP",
-            "EJS",
-            "ReactJS",
-            "Express",
-            "Render", 
-            "CSS",
-            "dotenv",
-            "Git"
-
-
-        ],
-        videoSrc: "https://stripe-video.s3.amazonaws.com/stripevid.mov",
-        thumbnail: "/images/stripe-comm-2.png",
-    
-    },
-    {
-        id: 8,
         clientName: "Amhara Unity",
         link: "https://www.amharaunity.com/",
         tags: "Social media, Realtime chat, Blog CMS, Authentication",
