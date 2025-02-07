@@ -1,6 +1,36 @@
 const projects = [
     {
-        id: 1,
+          id: 1,
+        clientName: "Social Hawk",
+        link: "/",
+        tags: "AWS EC2, AWS SQS, Python, DynamoDB, HTML, CSS, Puppeteer, Flask, Twilio",
+        more: "A real-time subscription-based, lead finding marketing tool for businesses.",
+        features: [
+            "Real-time",
+            "Automation",
+            "Artificial Intelligence (AI)",
+            "SMS API",
+            "Email"
+        ],
+        mainTag: "fullstack",
+        tools: [
+            
+            "AWS S3",
+            "AWS DynamoDB",
+            "Python",
+            "AWS EC2",
+            "AWS Lambda",
+            "AWS SQS"
+
+        ],
+        videoSrc: "https://irr-genos-video.s3.us-east-1.amazonaws.com/social.mov",
+        thumbnail: "/images/social-hawk.png",
+    
+    },
+    },
+    {
+        
+        id: 2,
         clientName: "iRescue & Resale",
         link: "/",
         tags: "AWS S3, HTML, CSS",
@@ -28,7 +58,7 @@ const projects = [
     
     },
      {
-        id: 2,
+        id: 3,
         clientName: "Serrena Store",
         link: "https://gilbert-serrena-store.framer.website/",
         tags: "AWS, Framer",
@@ -56,7 +86,7 @@ const projects = [
     },
     
      {
-        id: 3,
+        id: 4,
         clientName: "Realestic Properties",
         link: "https://gilbert-realestic.framer.website/",
         tags: "AWS, Framer",
@@ -83,7 +113,7 @@ const projects = [
     
     },
     {
-        id: 4,
+        id: 5,
         clientName: "HotelBeach",
         link: "https://gilbert-hotelbeach.framer.website/",
         tags: "AWS S3, HTML, CSS, Framer, Python",
@@ -108,7 +138,7 @@ const projects = [
     
     },
         {
-        id: 5,
+        id: 6,
         clientName: "Amhara Unity",
         link: "https://www.amharaunity.com/",
         tags: "Social media, Realtime chat, Blog CMS, Authentication",
