@@ -27,7 +27,6 @@ const projects = [
         thumbnail: "/images/social-hawk.png",
     
     },
-    },
     {
         
         id: 2,
@@ -164,7 +163,7 @@ const projects = [
         videoSrc: "https://amhara-video.s3.amazonaws.com/part1.mov",
         thumbnail: "/images/amhara.png",
     
-    },
+    }
     
 ]
 
